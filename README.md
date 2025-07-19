@@ -1,20 +1,35 @@
-# 🎬 IMDb Movie Review Sentiment Analysis
+# IMDB Movie Review Sentiment Analysis 🎬📊
 
-This project performs sentiment analysis on IMDb movie reviews using Natural Language Processing (NLP) and unsupervised learning techniques.
+This project analyzes the sentiment of movie reviews using NLP and machine learning techniques.
 
-## 📌 Project Overview
+## 📌 Project Objective
+Classify IMDB movie reviews as positive or negative by applying NLP preprocessing and a logistic regression model.
 
-- 🎯 **Objective**: Classify IMDb movie reviews as positive or negative.
-- 🧠 **Techniques Used**: 
-  - Text cleaning (HTML tag removal, stopword removal, lemmatization)
-  - Feature extraction with TF-IDF
-  - K-Means clustering for unsupervised sentiment grouping
-- 🧰 **Tools**: Python, Pandas, NLTK, Scikit-learn, Matplotlib
+## 🧠 Technologies Used
+- Python
+- Pandas, Numpy
+- NLTK (Natural Language Toolkit)
+- Scikit-learn
+- Matplotlib / Seaborn (for visualization)
 
-## 📁 Dataset
+## ⚙️ Workflow
+1. Loaded IMDB dataset from Kaggle
+2. Preprocessed the reviews:
+   - Removed HTML tags, special characters, and stopwords
+   - Tokenized and lemmatized the text
+3. Converted text to numerical form using TF-IDF
+4. Built a sentiment classification model using Logistic Regression
+5. Evaluated using accuracy score and classification report
 
-- 🔗 **Source**: [IMDb Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
-- 📂 **Note**: Dataset is not uploaded due to size. Please download it directly from Kaggle and place it in a `data/` folder.
+## 📈 Results
+- **Accuracy Achieved:** ~87%
+- Learned how text preprocessing dramatically affects model performance.
+
+## 📂 Dataset
+[🔗 IMDB Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+
+---
+
 
 ## 🚀 How to Run
 
