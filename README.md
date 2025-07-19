@@ -1,26 +1,27 @@
-# 💬 Movie Review Sentiment Analysis
+# 🎬 IMDb Movie Review Sentiment Analysis
 
-This project analyzes the sentiment (positive or negative) in movie reviews using Natural Language Processing (NLP) techniques and K-Means clustering.
+This project performs sentiment analysis on IMDb movie reviews using Natural Language Processing (NLP) and unsupervised learning techniques.
 
 ## 📌 Project Overview
 
-- 🎯 **Objective**: Build a sentiment analysis pipeline that clusters and classifies movie reviews.
-- 🧠 **Techniques**: Text cleaning, vectorization, K-Means clustering, and sentiment labeling.
-- 🧰 **Libraries Used**: Python, Pandas, NLTK, Scikit-learn
+- 🎯 **Objective**: Classify IMDb movie reviews as positive or negative.
+- 🧠 **Techniques Used**: 
+  - Text cleaning (HTML tag removal, stopword removal, lemmatization)
+  - Feature extraction with TF-IDF
+  - K-Means clustering for unsupervised sentiment grouping
+- 🧰 **Tools**: Python, Pandas, NLTK, Scikit-learn, Matplotlib
 
 ## 📁 Dataset
 
-- 🔗 Source: [Kaggle Movie Reviews Dataset](https://www.kaggle.com/datasets/utkarshxy/amazon-movie-reviews)
-- 📂 File Used: `amazonreviews.tsv`
-- ❗ **Note**: Dataset not included due to size. Please download it from the link above.
+- 🔗 **Source**: [IMDb Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- 📂 **Note**: Dataset is not uploaded due to size. Please download it directly from Kaggle and place it in a `data/` folder.
 
 ## 🚀 How to Run
 
 1. Clone this repository
-2. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/utkarshxy/amazon-movie-reviews)
-3. Place the `.tsv` file into a folder named `data/`
-4. Install dependencies:
+2. Download the dataset from Kaggle and place it inside a `data/` folder
+3. Install the required libraries:
    ```bash
    pip install -r requirements.txt
-5. Open and run the notebook:
-movie_review_sentiment_analysis.ipynb
+4. Open and run the notebook:
+IMDb_Sentiment_Analysis.ipynb
