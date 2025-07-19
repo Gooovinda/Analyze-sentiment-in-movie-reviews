@@ -28,8 +28,9 @@ Classify IMDB movie reviews as positive or negative by applying NLP preprocessin
 ## 📂 Dataset
 [🔗 IMDB Dataset on Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
----
-
+## 📌 Note
+⚠️ The datasets are not uploaded to this repository due to file size limitations.
+Please download the datasets directly from Kaggle using the links provided above in the Dataset section before running the notebook.
 
 ## 🚀 How to Run
 
